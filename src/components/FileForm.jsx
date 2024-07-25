@@ -191,8 +191,6 @@ const ImageUpload = () => {
                 a.click();
                 a.remove();
                 setConvertedFileUrl("");
-                // setFile(null);
-                // form.reset();
                 toast.success("Downloaded");
               }}
               variant="outline"
