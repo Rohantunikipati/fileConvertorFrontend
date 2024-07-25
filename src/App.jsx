@@ -9,9 +9,9 @@ function App() {
 
   return (
     <div className="w-full h-[100vh] flex items-center justify-center">
+      <Toaster />
       <NavBar />
       <ImageUpload />
-      <Toaster />
     </div>
   );
 }
