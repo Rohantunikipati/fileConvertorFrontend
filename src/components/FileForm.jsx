@@ -70,7 +70,7 @@ const ImageUpload = () => {
     formData.append("format", data.fileType);
 
     try {
-      const response = await fetch(import.meta.env.VITE_REACT_API, {
+      const response = await fetch("http://13.200.254.58:3000/convert", {
         method: "POST",
         body: formData,
       });
